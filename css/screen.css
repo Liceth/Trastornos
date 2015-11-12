@@ -1,0 +1,163 @@
+
+@font-face {
+    font-family: 'Georgia';
+    src: url ('../fonts/PlayDisplay-Regular.ttf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+  background-color:#000000;
+  margin:0;
+}
+
+#button{
+height: 40px;
+width: 80px;
+background-color:#B6381B; 
+text-decoration: none;
+padding: 10px 20px 10px 20px; 
+}
+
+
+header{
+  background-color:#F48D17;
+  height:60px;width: 100%;
+
+ 
+}
+
+header h1{
+  margin:0;
+  position:absolute;
+  top:8px;
+  right:150px;
+}
+
+header h1 a{
+  background:url(../img/logo.png) no-repeat;
+  background-size:cover;
+  display:block;
+  height:47px;  
+  text-indent:-9999px;
+  width:148px;
+
+}
+header p{
+  background:url(../img/heading.png) no-repeat;
+  background-size:cover;
+  display:block;
+  height:51px;
+  outline:none;
+  text-indent:-9999px;
+  width:223px;
+  position: absolute;
+  top:15px;
+  margin-left: 10px;
+  
+}
+
+footer{
+ background-color:#434343;
+  height:56px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+
+}
+footer p{
+  color: #9E9E9E;
+  font-family: 'Myriad Pro';
+  font-size: 13.33px;
+  text-align: center;
+  position: relative;
+  top:10px;
+
+}
+a{
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Myriad Pro';
+  font-size: 13.33px;
+}
+
+.izq{
+float: left;
+left: 40px;
+position: absolute;
+}
+.info{
+  position: inherit;
+  float: right;
+  right: 140px;
+  top: 60px;
+  
+
+}
+.info .texto p{
+  
+  position: inherit;
+  line-height: 22px;
+  font-family: 'Georgia';
+  font-size: 16px;
+  color: #8D8D8D;
+  
+  
+}
+
+#presentacion{
+position: relative;
+margin: 0;
+display: block;
+padding-bottom: 81px;
+}
+
+#presentacion h2{
+  display:none;
+}
+
+#presentacion p .der{
+  background:url(../img/sub-heading.png) no-repeat;
+  background-size:cover;
+  display:block;
+  height:81px;
+  outline:none;
+  text-indent:-9999px;
+  width:353px;
+ position: absolute;
+ float: right;
+}
+
+.subheader{
+  background-color: #434343;
+  width: 100%;
+  height: 25px;
+  
+}
+
+#sub-heading{
+  text-align: center;
+}
+
+
+.texto{
+  position: inherit;
+  width: 390px;
+  height: 455px;
+}
+
+
+.wrapper{
+  margin: 0 auto;
+  position:relative;
+  width:1000px;
+}
+
+
+.ui-tooltip-content {
+    font-size:10pt;
+    font-family:Calibri;
+    }
+    div.ui-tooltip {
+    max-width: 400px;
+    min-height: 400px;
+}
